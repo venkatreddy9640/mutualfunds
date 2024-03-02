@@ -1,0 +1,83 @@
+package com.venkat9731.mutualfunds.type;
+
+public enum SchemeSubCategory {
+    LARGE_CAP,
+    MID_CAP,
+    SMALL_CAP,
+    FLEXI_CAP,
+
+    LARGE_MID_CAP,
+
+    MULTI_CAP,
+
+    BANKING_PSU,
+
+    INCOME,
+
+    CORPORATE_BOND,
+
+    HALF_YEARLY_DIVIDEND,
+
+    CREDIT_RISK_DEBT,
+
+    DYNAMIC_BOND,
+
+    FLOATER_FUND,
+
+    MONEY_MARKET,
+
+    GILT_FUND,
+
+    ANNUAL_DIVIDEND,
+
+    LIQUID_FUND,
+
+    LONG_DURATION,
+
+    LOW_DURATION,
+
+    MEDIUM_DURATION,
+
+    ULTRA_SHORT_DURATION,
+
+    MEDIUM_LONG_DURATION,
+
+    OVERNIGHT_FUND,
+
+    SHORT_DURATION,
+
+    CONTRA_FUND,
+
+    DIVIDEND_FUND,
+
+    ELSS,
+
+    AGGRESSIVE,
+
+    ARBITRAGE,
+
+    BALANCED,
+
+    CONSERVATIVE,
+
+    DYNAMIC_ASSEST_ALLOCATION,
+
+    EQUITY_SAVINGS,
+
+    MULTI_ASSEST,
+
+    FOF_DOMESTIC,
+
+    FOF_OVERSEAS,
+
+    GOLD_ETF,
+
+    INDEX,
+
+    OTHER_ETF,
+
+    RETIREMENT,
+    CHILDREN
+
+
+}
