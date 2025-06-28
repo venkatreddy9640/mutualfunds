@@ -78,7 +78,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: venkatreddy9640/argocd-state-repo
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.ARGO_PAT }}
           path: argo-repo
 
       - name: Update Kubernetes manifests
