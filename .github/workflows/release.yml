@@ -77,7 +77,7 @@ jobs:
       - name: Checkout ArgoCD state repository
         uses: actions/checkout@v4
         with:
-          repository: github.com/venkatreddy9640/argocd-state-repo
+          repository: venkatreddy9640/argocd-state-repo
           token: ${{ secrets.GITHUB_TOKEN }}
           path: argo-repo
 
