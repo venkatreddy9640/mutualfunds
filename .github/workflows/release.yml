@@ -87,7 +87,7 @@ jobs:
           PROJECT_NAME=$(echo "${{ github.repository }}" | cut -d'/' -f2)
           
           # Update the image placeholder in your K8s manifests
-          sed -i "s|IMAGE_PLACEHOLDER|${{ steps.get_tag.outputs.full_image }}|g" argo-repo/${PROJECT_NAME}/k8s/deployment.yaml
+          sed -i "s#IMAGE_PLACEHOLDER#${{ steps.get_tag.outputs.full_image }}#g" argo-repo/${PROJECT_NAME}/k8s/deployment.yaml
           
           echo "Updated image to: ${{ steps.get_tag.outputs.full_image }}"
           
