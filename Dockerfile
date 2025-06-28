@@ -18,7 +18,7 @@ RUN mvn dependency:go-offline -B
 COPY src ./src
 
 # Expose port (adjust based on your Spring Boot application)
-EXPOSE 8080
+EXPOSE 8200
 
 # Run the Spring Boot application
 CMD ["mvn", "spring-boot:run"]
