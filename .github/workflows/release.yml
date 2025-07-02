@@ -15,10 +15,6 @@ jobs:
       contents: write
       packages: read
 
-    permissions:
-      contents: write
-      packages: read
-
     steps:
       - name: Log in to Container Registry
         uses: docker/login-action@v3
